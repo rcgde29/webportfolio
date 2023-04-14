@@ -1,0 +1,77 @@
+/* CSS Reset */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Sulphur Point', sans-serif;
+
+}
+
+
+/*Fonts*/
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Sulphur Point', sans-serif;*/
+
+/*Nav Bar*/
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav a:hover {
+  background-color: #111;
+}
+
+/*End of Nav Bar*/
+
+
+
+/*About me section*/
+
+#landing img{
+	height: 40vh;
+	width: 20vw;
+	border-radius: 20%;
+	padding: .5rem;
+
+}
+
+
+#landing {
+	background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEOT_0j49ZpC_aaRLQSvHSBpTIgpVB9jn6i5DqalVP_oCvouWbs5YLU7fi2ibXBGvYd7tsQozMWK48MiQhJgHSx-1u_di4A=s1600");
+
+}
+
+.img-about, .about {
+	display: inline-block;
+	vertical-align: top;
+	min-height: 175px;
+	width: 50%;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.dit {
+	margin-bottom: .8vh;
+}
+
+#quot {
+	margin-top: 12vh;
+}
