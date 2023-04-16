@@ -14,31 +14,21 @@ font-family: 'Bebas Neue', cursive;
 font-family: 'Sulphur Point', sans-serif;*/
 
 /*Nav Bar*/
-.nav-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+
+.nav{
+	background-color: #869199;
+	padding-top: 1rem;
 }
 
-.nav-list {
-  float: right;
-}
+.nav1 {
+	color: black;
+	padding: 1rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	font-size: normal;
+	font-family: 'Sulphur Point', sans-serif;
 
-.nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-.nav a:hover {
-  background-color: #111;
-}
-
 /*End of Nav Bar*/
 
 
@@ -46,32 +36,70 @@ font-family: 'Sulphur Point', sans-serif;*/
 /*About me section*/
 
 #landing img{
-	height: 40vh;
-	width: 20vw;
-	border-radius: 20%;
-	padding: .5rem;
+	height: 20rem;
+	width: 20rem;
+	position: center;
+	border-radius: 10rem;
+	border: solid black;
 
+}
+
+.a2 {
+	font-size: large;
+	line-height: 1;
 }
 
 
 #landing {
 	background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEOT_0j49ZpC_aaRLQSvHSBpTIgpVB9jn6i5DqalVP_oCvouWbs5YLU7fi2ibXBGvYd7tsQozMWK48MiQhJgHSx-1u_di4A=s1600");
-
 }
 
-.img-about, .about {
-	display: inline-block;
-	vertical-align: top;
-	min-height: 175px;
-	width: 50%;
-	margin-right: 0.5rem;
-	margin-left: 0.5rem;
+.border1 {
+	border: .2rem solid white;
 }
 
-.dit {
-	margin-bottom: .8vh;
+
+/*Project Section*/
+
+.proj {
+	background-color: #3C4048;
 }
 
-#quot {
-	margin-top: 12vh;
+h5 {
+	margin-top: 3rem !important;
+}
+
+
+/* Tools Section */
+
+#tools {
+	background-color: #B2B2B2;
+}
+
+h3 {
+	background-color: #8D8D8D !important;
+	color: snow;
+	margin-top: 4rem !important;
+}
+
+.o_tools{
+	background-color: #464646 !important;
+}
+
+
+
+/*Contact Section*/
+
+#gmap {
+	height: auto;
+	width: 100%;
+	background-position: center;
+}
+
+#bord {
+	border: solid black;
+}
+
+#bord2 {
+	border: solid black;
 }
