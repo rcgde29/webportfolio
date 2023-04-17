@@ -17,14 +17,14 @@ font-family: 'Sulphur Point', sans-serif;*/
 
 .nav{
 	background-color: #869199;
-	padding-top: 1rem;
+	padding-top: .8vh;
 }
 
 .nav1 {
 	color: black;
 	padding: 1rem;
-	margin-right: 2rem;
-	margin-top: 2rem;
+	margin-right: 2vw;
+	margin-top: 2vh;
 	font-size: normal;
 	font-family: 'Sulphur Point', sans-serif;
 
@@ -80,6 +80,7 @@ h3 {
 	background-color: #8D8D8D !important;
 	color: snow;
 	margin-top: 4rem !important;
+	width: 100%;
 }
 
 .o_tools{
@@ -102,4 +103,9 @@ h3 {
 
 #bord2 {
 	border: solid black;
+	width: 100%;
+	padding: 1rem;
+	margin-right: 2vw;
+	margin-top: 2vh;
+
 }
